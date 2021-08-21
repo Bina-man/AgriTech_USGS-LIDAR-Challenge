@@ -11,7 +11,7 @@ class CloudSubSampler():
     def __init__(self, file_name: str):
         self.point_cloud = self.read_point_cloud_file(file_name)
         self.available_samplings = ['factor', 'barycenter', 'closest']
-        logger.info('Successfully Instantiated CloudSubSampler Class Object')
+        logger.info('Successfull')
 
     def read_point_cloud_file(self, file_name: str):
         try:
